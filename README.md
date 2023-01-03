@@ -11,9 +11,11 @@ In addition open a terminal or cmd inside Pipe directory and execute the command
 java Pipe
 ```
 
-# Exerice 2 - Prediction of Temprature - Time at welding plate using Neural Networks
+# Exercise 2 - Prediction of Temprature - Time at welding plate using Neural Networks
 
 
+
+# Exercise 3 - Genetic Algorithm for Optimazition of welding process
 
 
 # Authors
