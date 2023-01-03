@@ -5,21 +5,21 @@ close all
 %% Reading Grid and Init
  cd 'C:\Users\XXXX\Documents\File_Name\Simulation Directory'
 
-Grid=readtable('Inputs_Grid.csv');
+Grid = readtable('Inputs_Grid.csv');
 
 Max_temp = zeros(size(Grid,1),1);
 TimeDeltaOver = zeros(size(Grid,1),1);
-Temp_K=convtemp(723,'C','K');
+Temp_K = convtemp(723,'C','K');
 %% Data Generated 1
 cd './Simulation Results/CSV_1_1890'
 % Data from out_1 to out_157
-count=1;
-i_A=[];
-FileName=cell(1,1900);
-FileRead=zeros(1,1900);
-for i=1:1900
+count = 1;
+i_A = [];
+FileName = cell(1,1900);
+FileRead = zeros(1,1900);
+for i = 1:1900
     try
-        FileName{i}=['out_',num2str(i),'_',num2str(i+1),...
+        FileName{i} = ['out_',num2str(i),'_',num2str(i+1),...
             '_',num2str(i+2),'.csv'];
         tempData=readtable(FileName{i});
         [Max_temp(count), TimeDeltaOver(count)] = ...
@@ -29,8 +29,8 @@ for i=1:1900
         [Max_temp(count+2), TimeDeltaOver(count+2)] = ...
             calc(tempData.TIME,tempData.POINT3,Temp_K);
         clear tempData
-        FileRead(i)=1;
-        count=count+3;
+        FileRead(i) = 1;
+        count = count + 3;
     catch
         continue
     end
@@ -54,9 +54,9 @@ end
 % end
 %% Data Generated 2
 cd '../CSV_1892_3644'
-for i=1892:3:3644
-    FileName=['out',num2str(i),'.csv'];
-    tempData=readtable(FileName);
+for i = 1892:3:3644
+    FileName = ['out',num2str(i),'.csv'];
+    tempData = readtable(FileName);
     [Max_temp(i-1), TimeDeltaOver(i-1)] = ...
         calc(tempData.TIME,tempData.POINT1,Temp_K);
     [Max_temp(i), TimeDeltaOver(i)] = ...
@@ -64,7 +64,7 @@ for i=1892:3:3644
     [Max_temp(i+1), TimeDeltaOver(i+1)] = ...
         calc(tempData.TIME,tempData.POINT3,Temp_K);
     clear tempData
-    count=count+3;
+    count = count + 3;
 end
 %% Dataset Creation
 cd '../../'
@@ -77,22 +77,22 @@ Dataset.Properties.VariableNames=names;
 % Save
 writetable(Dataset, 'dataset.csv')
 %% Dataset without zeros on Max Temp
-Dataset_NoZeros=Dataset(Dataset.("Max Temperature")>0,:);
+Dataset_NoZeros = Dataset(Dataset.("Max Temperature")>0,:);
 writetable(Dataset_NoZeros, 'dataset_No_Zeros.csv')
 %% Dataset without zeros on Max Temp
-Dataset_Edited=Dataset(Dataset.("Max Temperature")>1,:);
+Dataset_Edited = Dataset(Dataset.("Max Temperature")>1,:);
 writetable(Dataset_Edited, 'dataset_Edited.csv')
 %% Function
 function [maxT,deltaTime] = calc(t,Point,deltaTemp)
-    maxT=max(Point);
+    maxT = max(Point);
     if isempty(find((Point>deltaTemp)==1, 1))
         deltaTime = 0;
     else
-        startInd=find((Point>deltaTemp)==1, 1,'first');
-        startT=t(startInd);
-        stopInd=find((Point>deltaTemp)==1, 1,'last');
-        stopT=t(stopInd);
-        deltaTime = stopT-startT;
+        startInd = find((Point>deltaTemp)==1, 1,'first');
+        startT = t(startInd);
+        stopInd = find((Point>deltaTemp)==1, 1,'last');
+        stopT = t(stopInd);
+        deltaTime = stopT - startT;
     end
 
 end
