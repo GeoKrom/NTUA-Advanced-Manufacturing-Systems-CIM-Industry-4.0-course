@@ -1,0 +1,15 @@
+$OutputFilePath out_1_2_3.csv
+$PlateLength 0.04
+$PlateWidth 0.05
+$PlateThickness 0.003
+$ElectrodePositionY 0.025
+$AmbientTemperature 25
+$InitialTemperature 200
+$HeatTransferCoeff 30 
+$HeatInput 990
+$TimeAfterWeldEnd 100
+$ElectrodeVelocity 0.0033
+$NumberOfPoints 3
+$Point1 0.025 0.02 0
+$Point2 0.025 0.02 0.005
+$Point3 0.025 0.02 0.0025
