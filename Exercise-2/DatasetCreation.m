@@ -3,7 +3,7 @@ clc
 clear
 close all
 %% Reading Grid and Init
- cd 'C:\Users\gkass\Documents\Μαθήματα Msc Automation Systems\Συστήματα Κατεργασιών CIM- Industry 4.0\Ενότητα 4 - Industry 4.0\Εργασία ANN\Simulation Directory'
+ cd 'C:\Users\XXXX\Documents\File_Name\Simulation Directory'
 
 Grid=readtable('Inputs_Grid.csv');
 
