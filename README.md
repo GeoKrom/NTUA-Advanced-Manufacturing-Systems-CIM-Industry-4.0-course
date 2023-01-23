@@ -1,5 +1,7 @@
 # Intelligent Manufacturing Systems 
 
+Programming Exercises for course DPMS_AS/1110 - Intelligent Manufacturing Systems, School of Mechanical Engineering, National Technical University of Athens.
+
 # Exercise 1 - Timed Petri net for simulating control of flexible manufacturing system
   
 In this exercise we created a model of a manufacturing system, using petri nets. In the petri net P-Invariant and T-Invariant analysis was used, in order to check the the bound of the system as well and the deadlocks. 
