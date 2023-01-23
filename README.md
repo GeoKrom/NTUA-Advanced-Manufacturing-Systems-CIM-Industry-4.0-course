@@ -22,7 +22,19 @@ virtualenv neural_network
 source neural_network/bin/activate
 pip3 install -r requirements.txt
 ```
+## Training
 
+For maximum temperature NN training, run this command
+
+```bash
+python3 MaxTemperatureNN_training.py
+```
+
+For time over 723 Celcius degrees NN training, run this command
+
+```bash
+python3 AboveStandardTemperatureNN_training.py
+```
 ## Usage
 
 For maximum temperature prediction, run this command
