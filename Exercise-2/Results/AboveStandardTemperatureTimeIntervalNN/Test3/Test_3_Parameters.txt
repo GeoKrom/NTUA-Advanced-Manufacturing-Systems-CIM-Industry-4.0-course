@@ -1,0 +1,5 @@
+3 Hidden layers with ReLU and Sigmoid activation, respectively
+[7,64] [64,32] [32,16] [16,1]
+
+EPOCHS = 150
+LEARNING_RATE = 0.001

@@ -1,0 +1,5 @@
+2 Hidden layers with ReLU activation
+[8,32] [32,1]
+
+EPOCHS = 150
+LEARNING_RATE = 0.001

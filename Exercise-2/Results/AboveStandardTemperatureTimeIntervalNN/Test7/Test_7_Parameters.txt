@@ -1,0 +1,5 @@
+2 Hidden layers with Sigmoid activation
+[8,64] [64,1]
+
+EPOCHS = 150
+LEARNING_RATE = 0.001

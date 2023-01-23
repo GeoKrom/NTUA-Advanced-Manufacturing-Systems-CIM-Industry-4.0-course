@@ -1,0 +1,6 @@
+3 Hidden layers with Tanh and Sigmoid activation, respectively
+[8,64] [64,32] [32,1]
+
+EPOCHS = 500
+LEARNING_RATE = 0.005
+
