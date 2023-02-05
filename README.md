@@ -16,6 +16,8 @@ java Pipe
 
 # Exercise 2 - Prediction of Temprature - Time at welding plate using Neural Networks
 
+In this exercise we have created two neural network models for predicting maximum temperature at a welding plate process and predicting the time interval for temperatires above 723C.
+
 ## Installation
 
 ```bash
@@ -53,6 +55,7 @@ For time over 723 Celcius degrees, run this command
 
 # Exercise 3 - Genetic Algorithm for Optimazition of welding process
 
+In this exercise we have created a genetic algorithm for optimizing the neural networks for welding plate process. 
 
 # Authors
 
