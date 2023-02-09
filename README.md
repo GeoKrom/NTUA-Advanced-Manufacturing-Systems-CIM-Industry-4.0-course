@@ -58,8 +58,14 @@ For time over 723 Celcius degrees, run this command
 In this exercise we have created a genetic algorithm for optimizing the neural networks for welding plate process. 
 The cost funtion of the algorithm implements an euclidean distance between two temperatures. It also uses a penalty criterion on temperature on two occasions.
 
--The first occasion is when  \_{T <= A}
-
+-The first occasion is when  
+```math
+      T \lt A
+```
+-The second occasion is when
+```math
+    T \gt K
+```
 # Authors
 
 [Lampis Papakostas](https://github.com/LPapakostas)
