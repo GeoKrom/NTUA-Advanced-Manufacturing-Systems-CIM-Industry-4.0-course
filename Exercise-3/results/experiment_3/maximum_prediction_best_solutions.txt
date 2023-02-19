@@ -1,0 +1,9 @@
+x-axis coordinate: 0.01, Maximum temperature prediction: 810.39
+x-axis coordinate: 0.015, Maximum temperature prediction: 923.50
+x-axis coordinate: 0.02, Maximum temperature prediction: 1038.20
+x-axis coordinate: 0.025, Maximum temperature prediction: 1049.54
+x-axis coordinate: 0.03, Maximum temperature prediction: 1068.83
+x-axis coordinate: 0.035, Maximum temperature prediction: 1104.94
+x-axis coordinate: 0.04, Maximum temperature prediction: 1077.53
+x-axis coordinate: 0.045, Maximum temperature prediction: 999.24
+

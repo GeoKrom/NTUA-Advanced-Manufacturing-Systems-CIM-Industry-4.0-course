@@ -1,0 +1,4 @@
+Initial temperature : 230.72
+Heat Input : 1066.93
+Electrode Velocity : 0.00310
+

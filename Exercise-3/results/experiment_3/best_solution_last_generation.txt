@@ -1,0 +1,7 @@
+Initial temperature: 230.87, Heat Input: 1062.84, Electrode Velocity: 0.0031
+Initial temperature: 230.87, Heat Input: 1051.99, Electrode Velocity: 0.0032
+Initial temperature: 227.75, Heat Input: 1018.72, Electrode Velocity: 0.0035
+Initial temperature: 220.74, Heat Input: 1049.97, Electrode Velocity: 0.0036
+Initial temperature: 224.24, Heat Input: 1018.72, Electrode Velocity: 0.0032
+
+
