@@ -1,9 +1,9 @@
 # GA Optimization parameters
 number_of_solutions: 10
 number_of_generations: 100
-number_of_parents_mating: 40
-mutation_percent_genes: 90
-solutions_per_population: 100
+number_of_parents_mating: 10
+mutation_percent_genes: 50
+solutions_per_population: 20
 number_of_genes: 3
 keep_parents: -1
 low_range: -1

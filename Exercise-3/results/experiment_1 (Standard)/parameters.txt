@@ -12,6 +12,6 @@ crossover_probability: 0.6
 parent_selection_type: "rws"
 crossover_type: "single_point"
 mutation_type: "random"
-keep_elitism: 0
+keep_elitism: 1
 minimum_value_random_mutation: -1.0
 maximum_value_random_mutation: 1.0

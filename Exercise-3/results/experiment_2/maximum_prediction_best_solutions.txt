@@ -1,9 +1,8 @@
-x-axis coordinate: 0.01, Maximum temperature prediction: 813.14
-x-axis coordinate: 0.015, Maximum temperature prediction: 927.78
-x-axis coordinate: 0.02, Maximum temperature prediction: 1036.42
-x-axis coordinate: 0.025, Maximum temperature prediction: 1042.18
-x-axis coordinate: 0.03, Maximum temperature prediction: 1060.69
-x-axis coordinate: 0.035, Maximum temperature prediction: 1099.43
-x-axis coordinate: 0.04, Maximum temperature prediction: 1079.01
-x-axis coordinate: 0.045, Maximum temperature prediction: 1002.04
-
+x-axis coordinate: 0.01, Maximum temperature prediction: 811.34
+x-axis coordinate: 0.015, Maximum temperature prediction: 925.14
+x-axis coordinate: 0.02, Maximum temperature prediction: 1039.51
+x-axis coordinate: 0.025, Maximum temperature prediction: 1052.33
+x-axis coordinate: 0.03, Maximum temperature prediction: 1074.49
+x-axis coordinate: 0.035, Maximum temperature prediction: 1113.00
+x-axis coordinate: 0.04, Maximum temperature prediction: 1079.73
+x-axis coordinate: 0.045, Maximum temperature prediction: 998.34
