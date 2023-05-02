@@ -1,4 +1,4 @@
-# Advanced Manufacturing Systems - CIM Indystry 4.0 
+# Advanced Manufacturing Systems - CIM Industry 4.0 
 
 Programming Exercises for course DPMS_AS/1110 - Intelligent Manufacturing Systems, School of Mechanical Engineering, National Technical University of Athens.
 
