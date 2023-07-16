@@ -68,8 +68,8 @@ The cost funtion of the algorithm implements an euclidean distance between two t
 ```
 # Authors
 
-[Lampis Papakostas](https://github.com/LPapakostas)
-
-George Kassavetakis
+[George Kassavetakis](https://github.com/Gkassavetakis)
 
 [George Krommydas](https://github.com/GeoKrom)
+
+[Lampis Papakostas](https://github.com/LPapakostas)
